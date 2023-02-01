@@ -1,0 +1,19 @@
+
+.container {
+  display: none;
+}
+.imageContainer {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:1.5em;
+  }
+  .container {
+    display: block;
+  }
+}

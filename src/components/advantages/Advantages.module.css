@@ -1,0 +1,23 @@
+.title {
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+.centeredContainer {
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .centeredContainer {
+    display: flex;
+  }
+  .whiteBackground {
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 2em;
+    width: 70%;
+    background-color: white;
+  }
+}

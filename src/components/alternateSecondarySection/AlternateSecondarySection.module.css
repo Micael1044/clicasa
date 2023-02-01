@@ -1,0 +1,40 @@
+.btn {
+  padding: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+.centeredContainer {
+  display: flex;
+  padding: 2em;
+  gap: 1em;
+  justify-content: center;
+  background-image: url("../../../public/assets/alternate-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.centeredContainer > * {
+  
+  text-align: center;
+}
+
+@media (min-width:900px) {
+  .centeredContainer {
+    padding: 7em;
+    padding-bottom: 16em;
+  }
+  
+}

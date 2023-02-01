@@ -1,0 +1,40 @@
+.stepNum {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Palatino, sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #008bcf;
+  height: 47px;
+  color: white;
+  border-radius: 100px;
+  padding: 0.1em 0.45em;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.textContainer {
+  margin-bottom: 0.3rem;
+}
+
+.container {
+  display: flex;
+  gap: 1em;
+}
+
+@media (min-width: 900px) {
+  .imgContainer {
+    display: none;
+  }
+  .container {
+    padding: 1em;
+  }
+  .stepNum {
+    margin-bottom: 2rem;
+  }
+}

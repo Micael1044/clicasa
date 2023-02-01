@@ -1,0 +1,145 @@
+.container {
+  padding: 2em;
+  width: 100%;
+  background-image: url("../../../public/assets/header-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.inputContainer {
+  display: flex;
+  padding: 1em;
+  border-radius: 3px;
+  box-shadow: 4px 4px 8px 0 rgba(23, 53, 111, 0.2);
+  background-color: white;
+  margin-top: 1.5rem;
+}
+
+.input {
+  border: none;
+  font-size: 0.9rem;
+  padding-left: 0.5em;
+  width: 90%;
+}
+
+.input::placeholder {
+  color: gray;
+}
+
+.btn {
+  background-color: #008bcf;
+  padding: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.nestedBtn {
+  display: none;
+  background-color: #008bcf;
+  cursor: pointer;
+  padding: 1em;
+  color: white;
+  width: 70%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.wrapper {
+  display: block;
+}
+.text {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.watchVideoContainer {
+  display: none;
+  justify-content: center;
+  margin: 1rem;
+  opacity: 0.95;
+}
+
+.watchVideoNestedContainer {
+  display: flex;
+  cursor: pointer;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 1.5em;
+  border-radius: 100px;
+  gap: 1.5em;
+}
+.watchVideoText {
+  color: #008bcf;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+
+  font-weight: bold;
+}
+.arrow {
+  position: relative;
+  top: 30px;
+  left: 5px;
+}
+
+.playContainer {
+  background-color: #008bcf;
+  border-radius: 100px;
+  padding: 0.5em 1em;
+  margin-left: 1rem;
+  position: relative;
+  left: 10px;
+}
+
+@media (min-width: 900px) {
+  .nestedBtn {
+    display: block;
+  }
+  .inputContainer {
+    width: 50%;
+    align-items: center;
+    gap: 0.1em;
+    margin-bottom: 1rem;
+  }
+  .inputContainer > img {
+    width: 26px;
+    height: 26px;
+  }
+  .rightContainer > p {
+    display: block;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .input {
+    padding-right: 1em;
+    font-size: 1.1rem;
+  }
+  .btn {
+    display: none;
+  }
+  .text {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .watchVideoContainer {
+    display: flex;
+  }
+  .container {
+    padding: 8em;
+  }
+}

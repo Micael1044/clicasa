@@ -1,0 +1,23 @@
+.centeredContainer {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+.reviewContainer {
+
+   padding:1em 2.5em;
+   margin:0 1rem;
+   min-height: 100px;
+    background-color: #f8f8f8;
+    background-image: url("../../../../public/assets/review-background.png");
+    background-position: left 10px top 10px; /*Positioning*/
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+}
+
+.reviewText {
+    font-size: 1.3rem;
+    color: #008bcf;
+}
+
+

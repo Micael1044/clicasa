@@ -1,0 +1,11 @@
+
+.container {
+    display: none;
+}
+
+@media (min-width:900px) {
+    .container {
+        display: block;
+    }
+    
+}

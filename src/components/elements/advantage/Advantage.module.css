@@ -1,0 +1,38 @@
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin-bottom: 2rem;
+}
+
+.textContainer {
+  margin-bottom: 0.3rem;
+  padding: 1em 0.5em;
+ 
+}
+
+.textContainer > h3 {
+  font-size: 1.2rem;
+  color: #008bcf;
+}
+
+.textContainer > p {
+  font-size: 0.85rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .container {
+    display: block;
+  }
+  .imageContainer {
+    margin: 0;
+  }
+  .textContainer {
+    text-align: center;
+  }
+}
